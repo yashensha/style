@@ -184,6 +184,7 @@ input::-webkit-inner-spin-button {
 }
 .inp label {
   padding: 8px 0;
+  font-size: 13px;
 }
 
 .input:focus {
@@ -250,6 +251,9 @@ input::-webkit-inner-spin-button {
   }
   .input::placeholder {
     font-size: var(--sm-font);
+  }
+  .inp label{
+    font-size: 10px;
   }
   .btn {
     padding: var(--btn-sm-size);

@@ -1,0 +1,72 @@
+:root {
+    /* colors  */
+    --red1: #ff3b30;
+    --red2: #ff453a;
+    --orange1: #ff9500;
+    --orange2: #ff9f0a;
+    --yellow1: #ffcc00;
+    --yellow2: #ffd60a;
+    --green1: #34c759;
+    --green2: #30d158;
+    --mint1: #00c7be;
+    --mint2: #66d4cf;
+    --teal1: #30b0c7;
+    --teal2: #40c8e0;
+    --cyan1: #32ade6;
+    --cyan2: #64d2ff;
+    --blue1: #007aff;
+    --blue2: #0a84ff;
+    --indigo1: #5856d6;
+    --indigo2: #5e5ce6;
+    --purple1: #af52de;
+    --purple2: #bf5af2;
+    --pink1: #ff2d55;
+    --pink2: #ff375f;
+    --brown1: #a2845e;
+    --brown2: #ac8e68;
+    /* shades of gray */
+    --g1: #1c1c1e;
+    --g2: #2c2c2e;
+    --g3: #3a3a3c;
+    --g4: #48484a;
+    --g5: #636366;
+    --g6: #8e8e93;
+    --g7: #aeaeb2;
+    --g8: #c7c7cc;
+    --g9: #d1d1d6;
+    --g10: #e5e5ea;
+    --g11: #f2f2f7;
+    /* whites*/
+    --white1: #e9e9e9;
+    --white2: #f5f5f7;
+    --white3: #fbfbfd;
+    /* default */
+    --primary1: #007aff;
+    --primary2: #1a87ff;
+    --primarytran: #1a89ff96;
+    --primary3: #006ee6;
+
+    /* MEASUREMENTS */
+
+    --nav-h:70px;
+    --lg-font:21px;
+    --sm-font:16px;
+    --heading-spacing:13px;
+    /* BUTTON */
+    --btn-lg-size:9px 52px;
+    --btn-lg-margin:50px;
+
+    --btn-sm-size:9px 52px;
+    --btn-sm-margin:50px;
+
+    /* INPUT*/
+    --inp-lg-w:610px;
+    --inp-lg-h:47px;
+
+    --inp-sm-w:360px;
+    --inp-sm-h:37px;
+
+
+    /* FONT */
+    --fira:"Fira Mono", monospace;
+  }

@@ -247,7 +247,6 @@ input::-webkit-inner-spin-button {
     height: var(--inp-sm-h);
     width: var(--inp-sm-w);
     font-size: var(--sm-font);
-    border-width: 1px;
   }
   .input::placeholder {
     font-size: var(--sm-font);
@@ -255,7 +254,6 @@ input::-webkit-inner-spin-button {
   .btn {
     padding: var(--btn-sm-size);
     margin-top: var(--btn-sm-margin);
-    border-width:1px;
     font-size: var(--sm-font);
   }
 

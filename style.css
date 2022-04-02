@@ -70,7 +70,7 @@ body {
   justify-content: center;
 }
 .box {
-  background-color: #000;
+  background-color: var(--g1);
   height: 25vh;
   width: 30%;
   font-family: var(--fira);
@@ -102,7 +102,7 @@ body {
 
 .second .box {
   background-color: var(--yellow1);
-  color: #000;
+  color: var(--g1);
   width: 50%;
   display: flex;
   align-items: center;
@@ -123,24 +123,24 @@ body {
 .blk {
   color: var(--yellow1);
   border: var(--yellow1) solid 2px;
-  background-color: #000;
+  background-color: var(--g1);
 }
 .blk:hover {
   background-color: var(--yellow1);
-  color: #000;
+  color: var(--g1);
 }
 
 .yell {
-  border: #000 solid 2px;
+  border: var(--g1) solid 2px;
   background-color: var(--yellow1);
-  color: #000;
+  color: var(--g1);
 }
 .yell:hover {
-  background-color: #000;
+  background-color: var(--g1);
   color: var(--yellow1);
 }
 .sml {
-  color: #000;
+  color: var(--g1);
   display: flex;
   font-family: var(--fira);
   position: absolute;
@@ -167,18 +167,18 @@ input::-webkit-inner-spin-button {
   font-size: var(--lg-font);
   font-family: var(--fira);
   padding-left: 8px;
-  border: #000 solid 2px;
+  border: var(--g1) solid 2px;
 }
 .input::placeholder {
   font-size: 21px;
   padding-left: 4px;
-  color: #000;
+  color: var(--g1);
 }
 
 .inp {
   display: flex;
   flex-direction: column;
-  color: #000;
+  color: var(--g1);
   display: flex;
   justify-content: center;
 }
@@ -210,7 +210,7 @@ input::-webkit-inner-spin-button {
 }
 
 .alert {
-  color: #000;
+  color: var(--g1);
   font-family: var(--fira);
   font-weight: 400;
   padding: 8px 0;
@@ -236,7 +236,7 @@ input::-webkit-inner-spin-button {
 /* MOBILES */
 @media only screen and (max-width: 768px) {
   .b-icon {
-    color:#000;
+    color:var(--g1);
     display: flex;
     
   }
@@ -247,6 +247,7 @@ input::-webkit-inner-spin-button {
     height: var(--inp-sm-h);
     width: var(--inp-sm-w);
     font-size: var(--sm-font);
+    border-width: 1px;
   }
   .input::placeholder {
     font-size: var(--sm-font);
@@ -254,6 +255,7 @@ input::-webkit-inner-spin-button {
   .btn {
     padding: var(--btn-sm-size);
     margin-top: var(--btn-sm-margin);
+    border-width:1px;
     font-size: var(--sm-font);
   }
 
@@ -268,7 +270,7 @@ input::-webkit-inner-spin-button {
   /* LINK TRAY */
   .link-tray {
     display: flex;
-    background-color: #000;
+    background-color: var(--g1);
     flex-direction: column;
     width: 100%;
     height: auto;
@@ -284,7 +286,7 @@ input::-webkit-inner-spin-button {
   }
   .link-tray a:hover{
     background-color: var(--yellow1);
-    color: #000;
+    color: var(--g1);
     
   }
   .link-tray i {

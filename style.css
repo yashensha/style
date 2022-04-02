@@ -230,7 +230,6 @@ input::-webkit-inner-spin-button {
   display: none;
 }
 .b-icon {
-  color: #000;
   display: none;
 }
 
@@ -238,6 +237,7 @@ input::-webkit-inner-spin-button {
 @media only screen and (max-width: 768px) {
   .b-icon {
     color:#000;
+    display: flex;
     
   }
   .c-icon{

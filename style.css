@@ -4,6 +4,56 @@
 
 @import url("./constants.css");
 
+
+/* COLORS */
+.y {
+  background-color: var(--yellow1);
+  color: var(--g1);
+}
+.y-h {
+  color: var(--g1);
+}
+.b {
+  background-color: var(--g1);
+  color: var(--yellow1);
+
+}
+.b-h {
+  color:var(--g1);
+}
+
+.blk {
+  color: var(--yellow1);
+  border: var(--yellow1) solid 2px;
+  background-color: var(--g1);
+}
+.blk:hover {
+  background-color: var(--yellow1);
+  color: var(--g1);
+}
+
+.yell {
+  border: var(--g1) solid 2px;
+  background-color: var(--yellow1);
+  color: var(--g1);
+}
+.yell:hover {
+  background-color: var(--g1);
+  color: var(--yellow1);
+}
+
+.success {
+  background-color: var(--green1);
+}
+.danger {
+  background-color: var(--red1);
+}
+
+.adm{
+  background-color: var(--pink1);
+}
+
+
 * {
   padding: 0;
   margin: 0;
@@ -15,10 +65,49 @@ body {
   flex-direction: column;
   font-family: var(--fira);
   overflow: hidden;
+
   height: 100vh;
 
   font-weight: 400;
 }
+.scrollable{
+  padding-top: var(--nav-h);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.banner{
+  color: var(--g1);
+  height: var(--inp-lg-h);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adm-list{
+  background-color: var(--g1);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+}
+.adm-list a{
+  color: var(--g11);
+  font-size: var(--lg-font);
+  padding: var(--btn-lg-size);
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+
+}
+.adm-list a:hover{
+  background-color: var(--yellow2);
+  color: var(--g1);
+}
+
 .nav-bar {
   width: 100%;
   height: var(--nav-h);
@@ -40,18 +129,6 @@ body {
   padding-bottom: 20px;
 }
 
-.y {
-  background-color: var(--yellow1);
-}
-.y-h {
-  color: var(--g1);
-}
-.b {
-  background-color: var(--yellow1);
-}
-.b-h {
-  color: var(--g11);
-}
 .heading {
   font-family: "Bebas Neue", cursive;
   letter-spacing: var(--heading-spacing);
@@ -75,7 +152,6 @@ body {
   font-weight: 500;
 }
 .first {
-  /* background-color: var(--yellow1); */
   width: 100%;
   height: 50vh;
   align-items: center;
@@ -84,9 +160,7 @@ body {
   justify-content: center;
 }
 .box {
-  background-color: var(--g1);
-  height: 25vh;
-  width: 30%;
+  width: 100%;
   font-family: var(--fira);
   display: flex;
   flex-direction: column;
@@ -103,16 +177,15 @@ body {
   font-size: 21px;
 }
 
-.second {
-  background-color: var(--yellow1);
+.section{
   width: 100%;
   height: 50vh;
   align-items: center;
   display: flex;
-  color: var(--yellow1);
   justify-content: center;
   flex-direction: column;
 }
+
 
 .second .box {
   background-color: var(--yellow1);
@@ -134,25 +207,7 @@ body {
   margin-top: var(--btn-lg-margin);
 }
 
-.blk {
-  color: var(--yellow1);
-  border: var(--yellow1) solid 2px;
-  background-color: var(--g1);
-}
-.blk:hover {
-  background-color: var(--yellow1);
-  color: var(--g1);
-}
 
-.yell {
-  border: var(--g1) solid 2px;
-  background-color: var(--yellow1);
-  color: var(--g1);
-}
-.yell:hover {
-  background-color: var(--g1);
-  color: var(--yellow1);
-}
 .sml {
   color: var(--g1);
   display: flex;
@@ -161,12 +216,12 @@ body {
 }
 
 .icon {
-  color: var(--yellow1);
+  color: var(--g1);
   display: flex;
   align-items: center;
-  position: absolute;
-  left: 98%;
+  
 }
+
 /* INPUT */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -233,12 +288,7 @@ input::-webkit-inner-spin-button {
   margin-top: 8px;
 }
 
-.success {
-  background-color: var(--green1);
-}
-.danger {
-  background-color: var(--red1);
-}
+
 
 .link-tray {
   display: none;

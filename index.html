@@ -8,64 +8,42 @@
     <title>Register</title>
   </head>
   <body class="y">
-    <nav class="nav-bar y">
-      <h1 class="heading y-h">Hostelo de gentse</h1>
-      <div class="nav-link">
-        <a href="/login">Log in</a>
-        <a href="/register" class="active">Register</a>
-      </div>
-      <div class="b-icon" >
-        <i
-          class="fa fa-bars b-icon"
-          aria-hidden="true"
-          onclick="linkTray()"
-          id="bars"
-        ></i>
+    <!-- fixed nav -->
+    <nav class="nav-bar" b>
+      <h1 class="heading b-h">Hostelo de gentse</h1>
+      <div class="icon">
+        <a href="/login">
+          <svg xmlns="http://www.w3.org/2000/svg"  width="30" viewBox="0 0 512 512">
+            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M96 480h64C177.7 480 192 465.7 192 448S177.7 416 160 416H96c-17.67 0-32-14.33-32-32V128c0-17.67 14.33-32 32-32h64C177.7 96 192 81.67 192 64S177.7 32 160 32H96C42.98 32 0 74.98 0 128v256C0 437 42.98 480 96 480zM504.8 238.5l-144.1-136c-6.975-6.578-17.2-8.375-26-4.594c-8.803 3.797-14.51 12.47-14.51 22.05l-.0918 72l-128-.001c-17.69 0-32.02 14.33-32.02 32v64c0 17.67 14.34 32 32.02 32l128 .001l.0918 71.1c0 9.578 5.707 18.25 14.51 22.05c8.803 3.781 19.03 1.984 26-4.594l144.1-136C514.4 264.4 514.4 247.6 504.8 238.5z"
+            />
+          </svg>
+        </a>
       </div>
     </nav>
-    
-    <div class="link-tray">
-      <i
-        class="fa fa-close c-icon"
-        onclick="linkTrayClose()"
-        aria-hidden="true"
-      ></i>
-      <a href="/login">Login</a>
-      <a href="#">Register</a>
+    <!-- scrollable body -->
+    <div class="scrollable">
+    <div class="banner adm"><h1>Admin Panel</h1></div>
+    <!-- <div class="adm-list">
+    <a href="">Search student</a>
+  </div> -->
+  <section class="section b">
+    <div class="box b">
+      <p>Total attendance today</p>
+      <h1>143</h1>
+      <p class="month">12 june 2022</p>
+      <a href="/report" class="btn blk">View report</a>
     </div>
-
-    <form action="/auth/register" method="post" class="yellow">
-    
-      <div class="inp">
-        <label for="mobile">Mobile Number</label>
-        <input
-          class="input"
-          type="number"
-          name="mobile"
-          placeholder="Enter mobile number"
-        />
-      </div>
-      <div class="inp">
-        <label for="password">Password</label>
-        <input
-          type="password"
-          name="password"
-          class="input"
-          placeholder="Enter your password"
-        />
-      </div>
-      
-      <div class="inp">
-        <button class="btn yell" type="submit">Resister</button>
-      </div>
-    </form>
-
+  </section>
+  </div>
     <!-- FOOTER SECTION -->
-   
     <footer class="foot">
-      <small class="sml">Developed by&nbsp;<a href="/about" class="link"> TEAM 3</a></small>
+      <small class="sml"
+        >Developed by&nbsp;<a href="/about" class="link"> TEAM 3</a></small
+      >
     </footer>
-  
+
     <script
       src="https://kit.fontawesome.com/7d58fde0a7.js"
       crossorigin="anonymous"
@@ -73,23 +51,21 @@
     <!-- FOR LINK TRAY -->
     <script>
       function linkTray() {
-        let tray = (document.querySelector(".link-tray"));
-        let iBar = (document.querySelector(".b-icon"));
-        let iClose = (document.querySelector(".c-icon"));
+        let tray = document.querySelector(".link-tray");
+        let iBar = document.querySelector(".b-icon");
+        let iClose = document.querySelector(".c-icon");
         tray.style.top = "69px";
-        iBar.style.display="none"
-        iClose.style.display="flex"
-
+        iBar.style.display = "none";
+        iClose.style.display = "flex";
       }
 
       function linkTrayClose() {
-        let tray = (document.querySelector(".link-tray"));
-        let iBar = (document.querySelector(".b-icon"));
-        let iClose = (document.querySelector(".c-icon"));
+        let tray = document.querySelector(".link-tray");
+        let iBar = document.querySelector(".b-icon");
+        let iClose = document.querySelector(".c-icon");
         tray.style.top = "-89px";
-        iBar.style.display="flex"
-        iClose.style.display="flex"
-
+        iBar.style.display = "flex";
+        iClose.style.display = "flex";
       }
     </script>
   </body>

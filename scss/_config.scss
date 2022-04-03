@@ -80,29 +80,29 @@ $head-font:"Bebas Neue", cursive;
 
 // TYPOGRAPHY
 
-$lg-sizes:("lg-LT":"34pt","lg-i":"28pt","lg-ii":"22pt","lg-iii":"20pt","lg-body":"17pt","lg-C-O":"16pt","lg-S-H":"15pt","lg-F-N":"13pt","lg-c-i":"12pt","lg-c-ii":"11pt");
+// $lg-sizes:("lg-LT":"34pt","lg-i":"28pt","lg-ii":"22pt","lg-iii":"20pt","lg-body":"17pt","lg-C-O":"16pt","lg-S-H":"15pt","lg-F-N":"13pt","lg-c-i":"12pt","lg-c-ii":"11pt");
 
-@each $name,$size in $lg-sizes {
+// @each $name,$size in $lg-sizes {
 
-.text-#{$name}{
-    font-size: $size;
-    font-family: $stock-font;
-}
-
-    
-}
-
-$sm-sizes:("sm-LT":"32pt","sm-i":"26pt","sm-ii":"20pt","sm-iii":"18pt","sm-body":"15pt","sm-C-O":"14pt","sm-S-H":"13pt","sm-F-N":"12pt","sm-c-i":"11pt","sm-c-ii":"10pt");
-
-@each $name,$size in $sm-sizes {
-
-.text-#{$name}{
-    font-size: $size;
-    font-family: $stock-font;
-}
+// .text-#{$name}{
+//     font-size: $size;
+//     font-family: $stock-font;
+// }
 
     
-}
+// }
+
+// $sm-sizes:("sm-LT":"32pt","sm-i":"26pt","sm-ii":"20pt","sm-iii":"18pt","sm-body":"15pt","sm-C-O":"14pt","sm-S-H":"13pt","sm-F-N":"12pt","sm-c-i":"11pt","sm-c-ii":"10pt");
+
+// @each $name,$size in $sm-sizes {
+
+// .text-#{$name}{
+//     font-size: $size;
+//     font-family: $stock-font;
+// }
+
+    
+// }
 
 // FUNCTION
 
@@ -113,6 +113,18 @@ $sm-sizes:("sm-LT":"32pt","sm-i":"26pt","sm-ii":"20pt","sm-iii":"18pt","sm-body"
 
     @else if ($color == $primary-color) {
         @return $secondary-color;
+    }
+
+    @else if ($color == $red1) {
+        @return $g11;
+    }
+
+    @else if ($color == $green1) {
+        @return $g11;
+    }
+
+    @else if ($color == $pink1) {
+        @return $g11;
     }
 }
 

@@ -1,0 +1,98 @@
+@media only screen and (max-width: 700px){
+
+.b-icon{
+    color: $g1;
+    display: flex;
+}
+
+.c-icon{
+    color: $g11;
+}
+
+.nav-bar{
+    @include set-background($primary-color)
+  }
+
+// LINK TRAY
+    .link-tray {
+        display: flex;
+        background-color: $g1;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        z-index: 1;
+        top: -79px;
+        transition: 0.5s;
+      
+        a {
+          padding: 15px;
+          color: #fff;
+          text-decoration: none;
+      
+          &:hover {
+            @include set-background($primary-color);
+          }
+        }
+      
+        i {
+          padding: 15px;
+          display: flex;
+          justify-content: flex-end;
+        }
+      
+      }
+
+      // INPUT
+%input{
+    width: $inp-sm-w;
+    height: $inp-sm-h;
+    font-size: 10pt;
+    
+    &::placeholder{
+        font-size: 10pt;
+        color: $g1
+      }
+  }
+  
+  .input-primary{
+      @extend %input;
+  }
+  
+  .input-secondary{
+      @extend %input;
+  }
+  // BUTTON
+  
+  %btn{
+    padding: $btn-sm-size;
+    font-size: $sm-font;
+    margin-top: $btn-sm-margin;
+  }
+  
+  .btn-primary{
+      @extend %btn;
+  }
+  
+  .btn-secondary{
+      @extend %btn;
+  }
+  
+  .inp{
+      label{
+          font-size: 11pt;
+      }
+  }
+  
+  .heading{
+      font-size: 16pt;
+  }
+  .sml{
+      font-size: 8px;
+  }
+  
+  .nav-link{
+      display: none;
+  }
+}
+

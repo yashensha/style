@@ -1,103 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap");
-.text-lg-LT {
-  font-size: "34pt";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffcc00;
+  color: #1c1c1e;
+  height: 100vh;
   font-family: "Fira Mono", monospace;
 }
 
-.text-lg-i {
-  font-size: "28pt";
-  font-family: "Fira Mono", monospace;
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-self: flex-end;
+  width: 189px;
+}
+.nav-link a {
+  color: #1c1c1e;
+  text-decoration: none;
+}
+.nav-link a .active {
+  font-weight: 500;
 }
 
-.text-lg-ii {
-  font-size: "22pt";
-  font-family: "Fira Mono", monospace;
+.heading {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 13px;
+  display: flex;
+  font-style: normal;
+  font-weight: 800;
 }
 
-.text-lg-iii {
-  font-size: "20pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-lg-body {
-  font-size: "17pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-lg-C-O {
-  font-size: "16pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-lg-S-H {
-  font-size: "15pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-lg-F-N {
-  font-size: "13pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-lg-c-i {
-  font-size: "12pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-lg-c-ii {
-  font-size: "11pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-LT {
-  font-size: "32pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-i {
-  font-size: "26pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-ii {
-  font-size: "20pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-iii {
-  font-size: "18pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-body {
-  font-size: "15pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-C-O {
-  font-size: "14pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-S-H {
-  font-size: "13pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-F-N {
-  font-size: "12pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-c-i {
-  font-size: "11pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-c-ii {
-  font-size: "10pt";
-  font-family: "Fira Mono", monospace;
+.sml {
+  color: #1c1c1e;
+  display: flex;
+  font-size: 13px;
 }
 
 .btn-secondary, .btn-primary {
@@ -133,16 +75,24 @@
   color: #1c1c1e;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .input-secondary, .input-primary {
   background-color: transparent;
   width: 610px;
   height: 47px;
   font-size: 21pt;
+  color: #1c1c1e;
   font-family: "Fira Mono", monospace;
   padding-left: 8px;
 }
 .input-secondary::placeholder, .input-primary::placeholder {
   font-size: 21pt;
+  color: #1c1c1e;
 }
 .input-secondary:focus, .input-primary:focus {
   outline: none;
@@ -162,177 +112,249 @@
   color: #ffcc00;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.scrollable {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-body {
-  background-color: #ffcc00;
+.form {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 89px;
+  flex-direction: column;
+}
+
+.banner-admin {
   color: #1c1c1e;
-}
-
-.text-lg-LT {
-  font-size: "34pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-lg-i {
-  font-size: "28pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-lg-ii {
-  font-size: "22pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-lg-iii {
-  font-size: "20pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-lg-body {
-  font-size: "17pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-lg-C-O {
-  font-size: "16pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-lg-S-H {
-  font-size: "15pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-lg-F-N {
-  font-size: "13pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-lg-c-i {
-  font-size: "12pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-lg-c-ii {
-  font-size: "11pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-LT {
-  font-size: "32pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-i {
-  font-size: "26pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-ii {
-  font-size: "20pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-iii {
-  font-size: "18pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-body {
-  font-size: "15pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-C-O {
-  font-size: "14pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-S-H {
-  font-size: "13pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-F-N {
-  font-size: "12pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-c-i {
-  font-size: "11pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.text-sm-c-ii {
-  font-size: "10pt";
-  font-family: "Fira Mono", monospace;
-}
-
-.btn-primary, .btn-secondary {
-  text-decoration: none;
-  padding: 9px 52px;
-  font-family: "Fira Mono", monospace;
-  font-size: 21pt;
+  height: 47px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
 }
 
-.btn-primary {
-  border: #1c1c1e solid 2px;
-  background-color: #ffcc00;
-  color: #1c1c1e;
+.banner-admin {
+  background-color: #ff3b30;
+  color: #f2f2f7;
 }
-.btn-primary:hover {
-  border: #ffcc00 solid 2px;
+
+.adm-list {
   background-color: #1c1c1e;
-  color: #ffcc00;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
 }
-
-.btn-secondary {
-  border: #ffcc00 solid 2px;
-  background-color: #1c1c1e;
-  color: #ffcc00;
-}
-.btn-secondary:hover {
-  border: #1c1c1e solid 2px;
-  background-color: #ffcc00;
-  color: #1c1c1e;
-}
-
-.input-primary, .input-secondary {
-  background-color: transparent;
-  width: 610px;
-  height: 47px;
+.adm-list a {
+  color: #f2f2f7;
   font-size: 21pt;
+  padding: 9px 52px;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+}
+.adm-list a:hover {
+  background-color: #ffcc00;
+  color: #1c1c1e;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  background-color: #ffcc00;
+  color: #1c1c1e;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+}
+
+.container-secondary, .container-primary {
+  width: 100%;
+  height: 50vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-primary {
+  background-color: #ffcc00;
+  color: #1c1c1e;
+}
+
+.container-secondary {
+  background-color: #1c1c1e;
+  color: #ffcc00;
+}
+
+.box-secondary, .box-primary {
+  width: 100%;
   font-family: "Fira Mono", monospace;
-  padding-left: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.input-primary::placeholder, .input-secondary::placeholder {
-  font-size: 21pt;
+.box-secondary p, .box-primary p {
+  font-size: 49px;
 }
-.input-primary:focus, .input-secondary:focus {
-  outline: none;
+.box-secondary h1, .box-primary h1 {
+  font-size: 130pt;
+}
+.box-secondary .month, .box-primary .month {
+  font-size: 21px;
 }
 
-.input-primary {
-  border: #1c1c1e solid 2px;
-}
-.input-primary::placeholder {
+.box-primary {
+  background-color: #ffcc00;
   color: #1c1c1e;
 }
 
-.input-secondary {
-  border: #ffcc00 solid 2px;
+.box-secondary {
+  background-color: #ffcc00;
+  color: #1c1c1e;
 }
-.input-secondary::placeholder {
-  color: #ffcc00;
+
+.inp {
+  display: flex;
+  flex-direction: column;
+  color: #1c1c1e;
+  display: flex;
+  justify-content: center;
+}
+.inp label {
+  padding: 8px 0;
+  font-size: 13px;
+}
+
+.alert-danger, .alert-success {
+  font-family: "Fira Mono", monospace;
+  font-weight: 400;
+  padding: 8px 0;
+  width: 610px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.alert-success {
+  background-color: #34c759;
+  color: #f2f2f7;
+}
+
+.alert-danger {
+  background-color: #ff3b30;
+  color: #f2f2f7;
+}
+
+.foot {
+  background-color: #ffcc00;
+  color: #1c1c1e;
+  width: 100%;
+  height: 20vh;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+
+.link-tray {
+  display: none;
+}
+
+.b-icon {
+  display: none;
+}
+
+.icon {
+  color: #1c1c1e;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .b-icon {
+    color: #1c1c1e;
+    display: flex;
+  }
+
+  .c-icon {
+    color: #f2f2f7;
+  }
+
+  .nav-bar {
+    background-color: #ffcc00;
+    color: #1c1c1e;
+  }
+
+  .link-tray {
+    display: flex;
+    background-color: #1c1c1e;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    top: -79px;
+    transition: 0.5s;
+  }
+  .link-tray a {
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .link-tray a:hover {
+    background-color: #ffcc00;
+    color: #1c1c1e;
+  }
+  .link-tray i {
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .input-primary, .input-secondary {
+    width: 300px;
+    height: 37px;
+    font-size: 10pt;
+  }
+  .input-primary::placeholder, .input-secondary::placeholder {
+    font-size: 10pt;
+    color: #1c1c1e;
+  }
+
+  .btn-primary, .btn-secondary {
+    padding: 9px 52px;
+    font-size: 18pt;
+    margin-top: 50px;
+  }
+
+  .inp label {
+    font-size: 11pt;
+  }
+
+  .heading {
+    font-size: 16pt;
+  }
+
+  .sml {
+    font-size: 8px;
+  }
+
+  .nav-link {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

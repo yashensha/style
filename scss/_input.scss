@@ -1,13 +1,21 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 %input{
-    background-color: transparent;
+  background-color: transparent;
   width: $inp-lg-w;
   height: $inp-lg-h;
   font-size: $lg-font;
+  color: $g1;
   font-family: $stock-font;
   padding-left: 8px;
   
   &::placeholder{
       font-size: 21pt;
+      color: $g1;
     }
     &:focus{
         outline: none;

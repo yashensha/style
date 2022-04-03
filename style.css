@@ -29,8 +29,8 @@ body {
 .foot{
   background-color: var(--yellow1);
   width: 100%;
-  height: var(--nav-h);
-  margin-top: 50px;
+  height: 35px;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,6 +151,7 @@ body {
 .sml {
   color: var(--g1);
   display: flex;
+  font-size: 13px;
   
 }
 
@@ -269,13 +270,19 @@ input::-webkit-inner-spin-button {
   }
 
   .heading {
-    font-size: var(--sm-font);
+    font-size: 16px;
   }
 
   .nav-link {
     display: none;
   }
-
+.sml{
+  font-size: 8px;
+}
+.foot{
+  position: absolute;
+  top: 832px;
+}
   /* LINK TRAY */
   .link-tray {
     display: flex;

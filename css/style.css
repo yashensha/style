@@ -24,7 +24,8 @@ body {
   color: #1c1c1e;
   text-decoration: none;
 }
-.nav-link a .active {
+
+.active {
   font-weight: 500;
 }
 
@@ -235,7 +236,16 @@ input::-webkit-inner-spin-button {
 }
 .inp label {
   padding: 8px 0;
-  font-size: 13px;
+  font-size: 13pt;
+}
+
+.link-box {
+  margin-top: 24px;
+  font-size: 13pt;
+}
+
+.link {
+  color: #1c1c1e;
 }
 
 .alert-danger, .alert-success {
@@ -327,16 +337,16 @@ input::-webkit-inner-spin-button {
   .input-primary, .input-secondary {
     width: 300px;
     height: 37px;
-    font-size: 10pt;
+    font-size: 15pt;
   }
   .input-primary::placeholder, .input-secondary::placeholder {
-    font-size: 10pt;
+    font-size: 15pt;
     color: #1c1c1e;
   }
 
   .btn-primary, .btn-secondary {
-    padding: 9px 52px;
-    font-size: 18pt;
+    padding: 6px 47px;
+    font-size: 15pt;
     margin-top: 50px;
   }
 
@@ -354,6 +364,10 @@ input::-webkit-inner-spin-button {
 
   .nav-link {
     display: none;
+  }
+
+  .link-box {
+    font-size: 11pt;
   }
 }
 

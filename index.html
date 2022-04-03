@@ -11,8 +11,8 @@
     <nav class="nav-bar">
       <h1 class="heading">Hostelo de gentse</h1>
       <div class="nav-link">
-        <a href="/login">Log in</a>
-        <a href="/register" class="active">Register</a>
+        <a href="/login" class="active">Log in</a>
+        <a href="/register" >Register</a>
       </div>
       <div class="b-icon">
         <i
@@ -45,19 +45,9 @@
         {{#if sucmsg}}
 
         <p class="alert success">{{sucmsg}}</p>
-        {{/if}} -->
+        {{/if}}  -->
       </div>
 
-      <div class="inp">
-        <label for="name">Name</label>
-        <input
-          class="input-primary"
-          type="text"
-          name="name"
-          placeholder="Enter your name"
-          required
-        />
-      </div>
       <div class="inp">
         <label for="mobile">Mobile Number</label>
         <input
@@ -68,52 +58,7 @@
           required
         />
       </div>
-      <div class="inp">
-        <label for="date_joined">Date of Join</label>
-        <input class="input-primary" type="date" name="date_joined" required />
-      </div>
-
-      <div class="inp">
-        <label for="dept">Department</label>
-        <select name="dept" class="input-primary">
-          <option selected disabled>Select your Department</option>
-          <option value="CT">Computer Engineering</option>
-          <option value="ME">Mechanical Engineering</option>
-          <option value="EL">Electronics Engineering</option>
-          <option value="EEE">Electrical & Electronics Engineering</option>
-          <option value="CE">Civil Engineering</option>
-        </select>
-      </div>
-      <div class="inp">
-        <label for="guardian">Name of guardian</label>
-        <input
-          type="text"
-          class="input-primary"
-          name="guardian"
-          placeholder="Enter guardian's name"
-          required
-        />
-      </div>
-      <div class="inp">
-        <label for="guardian_mobile">Guardian's mobile number</label>
-        <input
-          type="number"
-          name="guardian_mobile"
-          class="input-primary"
-          placeholder="Enter guardian's mobile number"
-          required
-        />
-      </div>
-      <div class="inp">
-        <label for="adm_no">Admission number</label>
-        <input
-          type="number"
-          class="input-primary"
-          name="adm_no"
-          placeholder="Enter your admission number"
-          required
-        />
-      </div>
+      
       <div class="inp">
         <label for="password">Password</label>
         <input
@@ -124,21 +69,15 @@
           required
         />
       </div>
-      <div class="inp">
-        <label for="passConfirm">Password confirmation</label>
-        <input
-          type="password"
-          name="passConfirm"
-          class="input-primary"
-          placeholder="Confirm your password"
-          required
-        />
-      </div>
+
+<div class="inp link-box">
+    <p>Don't have an account? <a href="/register" class="link">Register</a></p>
+</div>
+
       <div class="inp">
         <button class="btn-primary" type="submit">Resister</button>
       </div>
     </form>
-
     <footer class="foot">
       <p class="sml">Developed by YASHENSHA & Team</p>
     </footer>

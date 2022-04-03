@@ -26,11 +26,11 @@ font-family: $stock-font;
       color: $g1;
       text-decoration: none;
 
-      .active {
-        font-weight: 500;
-      }
     }
-  }
+}
+.active {
+  font-weight: 500;
+}
 
 .heading {
     font-family: $head-font;

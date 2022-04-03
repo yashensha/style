@@ -124,8 +124,17 @@
   
     label {
         padding: 8px 0;
-      font-size: 13px;
+      font-size: $lg-label;
     }
+  }
+
+  .link-box{
+    margin-top: 24px;
+    font-size: $lg-label;
+  }
+  .link{
+      color: $g1;
+
   }
 
 %alert {
@@ -157,6 +166,7 @@
   align-items: flex-end;
   padding-bottom: 20px;
 }
+
 
 // LINK-TRAY
 

@@ -47,10 +47,10 @@
 %input{
     width: $inp-sm-w;
     height: $inp-sm-h;
-    font-size: 10pt;
+    font-size: $sm-font;
     
     &::placeholder{
-        font-size: 10pt;
+        font-size: $sm-font;
         color: $g1
       }
   }
@@ -80,7 +80,7 @@
   
   .inp{
       label{
-          font-size: 11pt;
+          font-size: $sm-label;
       }
   }
   
@@ -94,5 +94,7 @@
   .nav-link{
       display: none;
   }
+  .link-box{
+      font-size: $sm-label;
+  }
 }
-

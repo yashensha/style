@@ -26,6 +26,15 @@ body {
   position: fixed;
   z-index: 2;
 }
+.foot{
+  background-color: var(--yellow1);
+  width: 100%;
+  height: var(--nav-h);
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .y {
   background-color: var(--yellow1);
 }
@@ -142,9 +151,7 @@ body {
 .sml {
   color: var(--g1);
   display: flex;
-  font-family: var(--fira);
-  position: absolute;
-  top: 1268px;
+  
 }
 
 .icon {
@@ -253,7 +260,7 @@ input::-webkit-inner-spin-button {
     font-size: var(--sm-font);
   }
   .inp label{
-    font-size: 10px;
+    font-size: 11px;
   }
   .btn {
     padding: var(--btn-sm-size);

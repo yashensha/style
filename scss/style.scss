@@ -36,13 +36,14 @@ font-family: $stock-font;
     font-family: $head-font;
     letter-spacing: $heading-spacing;
     display: flex;
+    font-size: $lg-iii;
     font-style: normal;
     font-weight: 800;
   }
 .sml{
     color: $g1;
     display: flex;
-    font-size: 13px;
+    font-size: $lg-c-ii;
 }
 
 

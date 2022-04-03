@@ -3,10 +3,12 @@
 .b-icon{
     color: $g1;
     display: flex;
+    font-size: $sm-iii;
 }
 
 .c-icon{
     color: $g11;
+    font-size: $sm-body;
 }
 
 .nav-bar{
@@ -22,12 +24,13 @@
         height: auto;
         position: absolute;
         z-index: 1;
-        top: -79px;
+        top: -88px;
         transition: 0.5s;
       
         a {
           padding: 15px;
           color: #fff;
+          font-size: $sm-body;
           text-decoration: none;
       
           &:hover {
@@ -85,10 +88,10 @@
   }
   
   .heading{
-      font-size: 16pt;
+      font-size: $sm-iii;
   }
   .sml{
-      font-size: 8px;
+      font-size: $sm-c-ii;
   }
   
   .nav-link{

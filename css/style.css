@@ -33,6 +33,7 @@ body {
   font-family: "Bebas Neue", cursive;
   letter-spacing: 13px;
   display: flex;
+  font-size: 20pt;
   font-style: normal;
   font-weight: 800;
 }
@@ -40,14 +41,14 @@ body {
 .sml {
   color: #1c1c1e;
   display: flex;
-  font-size: 13px;
+  font-size: 11pt;
 }
 
 .btn-secondary, .btn-primary {
   text-decoration: none;
   padding: 9px 52px;
   font-family: "Fira Mono", monospace;
-  font-size: 21pt;
+  font-size: 17pt;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,7 +87,7 @@ input::-webkit-inner-spin-button {
   background-color: transparent;
   width: 610px;
   height: 47px;
-  font-size: 21pt;
+  font-size: 17pt;
   color: #1c1c1e;
   font-family: "Fira Mono", monospace;
   padding-left: 8px;
@@ -156,7 +157,7 @@ input::-webkit-inner-spin-button {
 }
 .adm-list a {
   color: #f2f2f7;
-  font-size: 21pt;
+  font-size: 17pt;
   padding: 9px 52px;
   text-decoration: none;
   text-align: center;
@@ -297,10 +298,12 @@ input::-webkit-inner-spin-button {
   .b-icon {
     color: #1c1c1e;
     display: flex;
+    font-size: 18pt;
   }
 
   .c-icon {
     color: #f2f2f7;
+    font-size: 15pt;
   }
 
   .nav-bar {
@@ -316,12 +319,13 @@ input::-webkit-inner-spin-button {
     height: auto;
     position: absolute;
     z-index: 1;
-    top: -79px;
+    top: -88px;
     transition: 0.5s;
   }
   .link-tray a {
     padding: 15px;
     color: #fff;
+    font-size: 15pt;
     text-decoration: none;
   }
   .link-tray a:hover {
@@ -351,15 +355,15 @@ input::-webkit-inner-spin-button {
   }
 
   .inp label {
-    font-size: 11pt;
+    font-size: 12pt;
   }
 
   .heading {
-    font-size: 16pt;
+    font-size: 18pt;
   }
 
   .sml {
-    font-size: 8px;
+    font-size: 10pt;
   }
 
   .nav-link {
@@ -367,7 +371,7 @@ input::-webkit-inner-spin-button {
   }
 
   .link-box {
-    font-size: 11pt;
+    font-size: 12pt;
   }
 }
 

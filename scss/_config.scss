@@ -50,12 +50,9 @@
 
 //  Sizes
 
-$nav-h:70px;
-$lg-font:21pt;
-$sm-font:15pt;
 
-$lg-label:13pt;
-$sm-label:11pt;
+$nav-h:70px;
+
 $heading-spacing:13px;
 // BUTTON
 $btn-lg-size:9px 52px;
@@ -81,31 +78,37 @@ $stock-font:"Fira Mono", monospace;
 $head-font:"Bebas Neue", cursive;
 
 
-// TYPOGRAPHY
 
-// $lg-sizes:("lg-LT":"34pt","lg-i":"28pt","lg-ii":"22pt","lg-iii":"20pt","lg-body":"17pt","lg-C-O":"16pt","lg-S-H":"15pt","lg-F-N":"13pt","lg-c-i":"12pt","lg-c-ii":"11pt");
 
-// @each $name,$size in $lg-sizes {
+$lg-LT:34pt;
+$lg-i:28pt;
+$lg-ii:22pt;
+$lg-iii:20pt;
+$lg-body:17pt;
+$lg-C-O:16pt;
+$lg-S-H:15pt;
+$lg-F-N:13pt;
+$lg-c-i:12pt;
+$lg-c-ii:11pt;
 
-// .text-#{$name}{
-//     font-size: $size;
-//     font-family: $stock-font;
-// }
 
-    
-// }
+$sm-LT:32pt;
+$sm-i:26pt;
+$sm-ii:20pt;
+$sm-iii:18pt;
+$sm-body:15pt;
+$sm-C-O:14pt;
+$sm-S-H:13pt;
+$sm-F-N:12pt;
+$sm-c-i:11pt;
+$sm-c-ii:10pt;
 
-// $sm-sizes:("sm-LT":"32pt","sm-i":"26pt","sm-ii":"20pt","sm-iii":"18pt","sm-body":"15pt","sm-C-O":"14pt","sm-S-H":"13pt","sm-F-N":"12pt","sm-c-i":"11pt","sm-c-ii":"10pt");
 
-// @each $name,$size in $sm-sizes {
+$lg-font:$lg-body;
+$sm-font:$sm-body;
 
-// .text-#{$name}{
-//     font-size: $size;
-//     font-family: $stock-font;
-// }
-
-    
-// }
+$lg-label:$lg-F-N;
+$sm-label:$sm-F-N;
 
 // FUNCTION
 

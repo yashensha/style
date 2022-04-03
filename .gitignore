@@ -13,6 +13,3 @@ test/fixtures/watching-css-out-02
 coverage
 package-lock.json
 .nyc_output
-*.scss
-/scss
-*.map

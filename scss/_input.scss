@@ -1,0 +1,31 @@
+%input{
+    background-color: transparent;
+  width: $inp-lg-w;
+  height: $inp-lg-h;
+  font-size: $lg-font;
+  font-family: $stock-font;
+  padding-left: 8px;
+  
+  &::placeholder{
+      font-size: 21pt;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+.input-primary{
+    @extend %input;
+    border: $g1 solid 2px;
+    
+    &::placeholder{
+        color: $g1;
+    }
+}
+.input-secondary{
+    @extend %input;
+    border: $yellow1 solid 2px;
+    &::placeholder{
+        color: $yellow1;
+    }
+}

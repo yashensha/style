@@ -100,6 +100,68 @@
   font-family: "Fira Mono", monospace;
 }
 
+.btn-secondary, .btn-primary {
+  text-decoration: none;
+  padding: 9px 52px;
+  font-family: "Fira Mono", monospace;
+  font-size: 21pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.btn-primary {
+  border: #1c1c1e solid 2px;
+  background-color: #ffcc00;
+  color: #1c1c1e;
+}
+.btn-primary:hover {
+  border: #ffcc00 solid 2px;
+  background-color: #1c1c1e;
+  color: #ffcc00;
+}
+
+.btn-secondary {
+  border: #ffcc00 solid 2px;
+  background-color: #1c1c1e;
+  color: #ffcc00;
+}
+.btn-secondary:hover {
+  border: #1c1c1e solid 2px;
+  background-color: #ffcc00;
+  color: #1c1c1e;
+}
+
+.input-secondary, .input-primary {
+  background-color: transparent;
+  width: 610px;
+  height: 47px;
+  font-size: 21pt;
+  font-family: "Fira Mono", monospace;
+  padding-left: 8px;
+}
+.input-secondary::placeholder, .input-primary::placeholder {
+  font-size: 21pt;
+}
+.input-secondary:focus, .input-primary:focus {
+  outline: none;
+}
+
+.input-primary {
+  border: #1c1c1e solid 2px;
+}
+.input-primary::placeholder {
+  color: #1c1c1e;
+}
+
+.input-secondary {
+  border: #ffcc00 solid 2px;
+}
+.input-secondary::placeholder {
+  color: #ffcc00;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -108,6 +170,169 @@
 
 body {
   background-color: #ffcc00;
+  color: #1c1c1e;
+}
+
+.text-lg-LT {
+  font-size: "34pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-lg-i {
+  font-size: "28pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-lg-ii {
+  font-size: "22pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-lg-iii {
+  font-size: "20pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-lg-body {
+  font-size: "17pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-lg-C-O {
+  font-size: "16pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-lg-S-H {
+  font-size: "15pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-lg-F-N {
+  font-size: "13pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-lg-c-i {
+  font-size: "12pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-lg-c-ii {
+  font-size: "11pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-sm-LT {
+  font-size: "32pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-sm-i {
+  font-size: "26pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-sm-ii {
+  font-size: "20pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-sm-iii {
+  font-size: "18pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-sm-body {
+  font-size: "15pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-sm-C-O {
+  font-size: "14pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-sm-S-H {
+  font-size: "13pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-sm-F-N {
+  font-size: "12pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-sm-c-i {
+  font-size: "11pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.text-sm-c-ii {
+  font-size: "10pt";
+  font-family: "Fira Mono", monospace;
+}
+
+.btn-primary, .btn-secondary {
+  text-decoration: none;
+  padding: 9px 52px;
+  font-family: "Fira Mono", monospace;
+  font-size: 21pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.btn-primary {
+  border: #1c1c1e solid 2px;
+  background-color: #ffcc00;
+  color: #1c1c1e;
+}
+.btn-primary:hover {
+  border: #ffcc00 solid 2px;
+  background-color: #1c1c1e;
+  color: #ffcc00;
+}
+
+.btn-secondary {
+  border: #ffcc00 solid 2px;
+  background-color: #1c1c1e;
+  color: #ffcc00;
+}
+.btn-secondary:hover {
+  border: #1c1c1e solid 2px;
+  background-color: #ffcc00;
+  color: #1c1c1e;
+}
+
+.input-primary, .input-secondary {
+  background-color: transparent;
+  width: 610px;
+  height: 47px;
+  font-size: 21pt;
+  font-family: "Fira Mono", monospace;
+  padding-left: 8px;
+}
+.input-primary::placeholder, .input-secondary::placeholder {
+  font-size: 21pt;
+}
+.input-primary:focus, .input-secondary:focus {
+  outline: none;
+}
+
+.input-primary {
+  border: #1c1c1e solid 2px;
+}
+.input-primary::placeholder {
+  color: #1c1c1e;
+}
+
+.input-secondary {
+  border: #ffcc00 solid 2px;
+}
+.input-secondary::placeholder {
+  color: #ffcc00;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -185,7 +185,6 @@ input[type=number] {
   padding: 0 24px;
   background-color: #ffcc00;
   color: #1c1c1e;
-  opacity: 0.7;
   justify-content: space-between;
   backdrop-filter: blur(3px);
   position: fixed;

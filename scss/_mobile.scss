@@ -100,4 +100,31 @@
   .link-box{
       font-size: $sm-label;
   }
+  %box {
+    width: 100%;
+    font-family: $stock-font;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    h6{
+      font-size: $sm-MD;
+      font-weight: 400;
+    }
+   
+    p {
+      margin-top: 19px;
+      font-size: $sm-SM;
+    }
+  
+    h1 {
+      font-size: $sm-LG;
+    }
+   
+  }
+
+
 }
+
+

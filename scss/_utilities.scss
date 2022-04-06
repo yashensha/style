@@ -30,6 +30,14 @@
   @include set-background($red1);
 }
 
+.banner-success {
+  @extend %banner;
+  @include set-background($green1);
+}
+
+
+
+
 .adm-list {
   background-color: $g1;
   width: 100%;
@@ -92,17 +100,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  
+  h6{
+    font-size: $MD;
+    font-weight: 400;
+  }
+ 
   p {
-    font-size: 49px;
+    margin-top: 19px;
+    font-size: $SM;
   }
 
   h1 {
-    font-size: 130pt;
+    font-size: $LG;
   }
-  .month {
-    font-size: 21px;
-  }
+ 
 }
 
 .box-primary {
@@ -112,7 +124,7 @@
 
 .box-secondary {
   @extend %box;
-  @include set-background($primary-color);
+  @include set-background($secondary-color);
 }
 
 .inp {

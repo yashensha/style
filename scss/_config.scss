@@ -78,7 +78,13 @@ $stock-font:"Fira Mono", monospace;
 $head-font:"Bebas Neue", cursive;
 
 
+$LG:10em;
+$MD:2em;
+$SM:2em;
 
+$sm-LG:($LG)-2;
+$sm-MD:($MD)-.5;
+$sm-SM:($SM)-1;
 
 $lg-LT:34pt;
 $lg-i:28pt;
@@ -126,7 +132,7 @@ $sm-label:$sm-F-N;
     }
 
     @else if ($color == $green1) {
-        @return $g11;
+        @return $g1;
     }
 
     @else if ($color == $pink1) {

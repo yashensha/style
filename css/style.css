@@ -77,10 +77,14 @@ body {
   color: #1c1c1e;
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 .input-secondary, .input-primary {
@@ -132,7 +136,7 @@ input::-webkit-inner-spin-button {
   flex-direction: column;
 }
 
-.banner-admin {
+.banner-success, .banner-admin {
   color: #1c1c1e;
   height: 47px;
   width: 100%;
@@ -144,6 +148,11 @@ input::-webkit-inner-spin-button {
 .banner-admin {
   background-color: #ff3b30;
   color: #f2f2f7;
+}
+
+.banner-success {
+  background-color: #34c759;
+  color: #1c1c1e;
 }
 
 .adm-list {
@@ -208,14 +217,16 @@ input::-webkit-inner-spin-button {
   align-items: center;
   justify-content: center;
 }
+.box-secondary h6, .box-primary h6 {
+  font-size: 2em;
+  font-weight: 400;
+}
 .box-secondary p, .box-primary p {
-  font-size: 49px;
+  margin-top: 19px;
+  font-size: 2em;
 }
 .box-secondary h1, .box-primary h1 {
-  font-size: 130pt;
-}
-.box-secondary .month, .box-primary .month {
-  font-size: 21px;
+  font-size: 10em;
 }
 
 .box-primary {
@@ -224,8 +235,8 @@ input::-webkit-inner-spin-button {
 }
 
 .box-secondary {
-  background-color: #ffcc00;
-  color: #1c1c1e;
+  background-color: #1c1c1e;
+  color: #ffcc00;
 }
 
 .inp {
@@ -260,7 +271,7 @@ input::-webkit-inner-spin-button {
 
 .alert-success {
   background-color: #34c759;
-  color: #f2f2f7;
+  color: #1c1c1e;
 }
 
 .alert-danger {
@@ -372,6 +383,26 @@ input::-webkit-inner-spin-button {
 
   .link-box {
     font-size: 12pt;
+  }
+
+  .box-primary, .box-secondary {
+    width: 100%;
+    font-family: "Fira Mono", monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .box-primary h6, .box-secondary h6 {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+  .box-primary p, .box-secondary p {
+    margin-top: 19px;
+    font-size: 1em;
+  }
+  .box-primary h1, .box-secondary h1 {
+    font-size: 8em;
   }
 }
 
